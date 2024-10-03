@@ -1,0 +1,134 @@
+body {
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.menu {
+    width: 20%;
+    height: 1000px;
+    margin: 0; 
+    padding: 0;
+    float: left;
+    font: 12px Verdana, sans-serif;
+    background-color: #d9c5ff;
+    border-right: 3px solid rgb(213, 213, 213);
+}
+
+.menu li {
+    margin: 0; 
+    padding: 0px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    text-align: left;
+    list-style-type: none;
+}
+
+.menu a:link {
+    background: #d9c5ff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    display: grid;
+}
+
+.container {
+    margin-top: 4%;
+}
+
+nav {
+    background-color: #ffffff; 
+    display: block;
+    max-height: 100px;
+    width: 100%;
+    border-bottom: 1px solid #d9c5ff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 8%;
+    box-shadow: 0 3px 10px gray;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 30%;
+    text-align: center;
+    margin: 3% 1% 3% 1%;
+    border: 1px solid #ffffff;
+    border-radius: 4%;
+    text-decoration: none;
+    box-shadow: 0 1px 5px rgb(199, 199, 199);
+}
+
+.iframeVideo {
+    border-radius: 4% 4% 0 0;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    color: #551a8b;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cadastro {
+    float: right;
+}
+
+.videoCard {
+    float: right;
+    width: 79%;
+}
+
+.paginaVideo {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    border: 2px solid #ccc;
+    width: 80%;
+  }
+  
+.divVideo {
+    flex: 1;
+  }
+  
+.divDetalhes {
+    flex: 1;
+  }
+
+.tituloVideo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0 0 3%;
+}  
+
+.descVideo {
+    font-size: 15px;
+    width: 93.5%;
+    margin: 1% 0 3% 3%;
+}
+
+.tempoVideo, .dataVideo, .canalVideo {
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.boxDetalhes {
+    border: 2px solid #ccc;
+    width: 93.5%;
+    margin: 0 0 3% 3%;
+}
